@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cloud Engineer Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #ffffff);
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      background: #0077cc;
+      text-align: center;
+      padding: 0.75rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffe600;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    footer {
+      background: #0f2027;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    h2 {
+      color: #0077cc;
+      border-bottom: 2px solid #e0e0e0;
+      padding-bottom: 0.3rem;
+    }
+    ul li {
+      padding: 0.25rem 0;
+    }
+    a {
+      color: #0077cc;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ayobami Pase</h1>
+    <p>Cloud Engineer | Infrastructure & DevOps</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>I am a Cloud Engineer with experience in GCP, AWS, Terraform, and DevOps practices. Passionate about infrastructure automation and system reliability.</p>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <ul>
+        <li>Cloud Platforms: AWS, GCP</li>
+        <li>IaC Tools: Terraform, CloudFormation</li>
+        <li>CI/CD: GitHub Actions, Jenkins</li>
+        <li>Monitoring: Datadog, Prometheus</li>
+        <li>Scripting: Bash, Python</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Terraform Fargate Infrastructure</strong> – Deployed container workloads on AWS using Terraform and ECS Fargate.</li>
+        <li><strong>GCP Budget Monitor</strong> – Automated budget alerts with Cloud Functions and Pub/Sub.</li>
+        <li><strong>Multi-Region Web Hosting</strong> – Hosted a static site across AWS and GCP with global DNS failover.</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:aypase@gmail.com">aypase@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/apaseay" target="_blank">github.com/apaseay</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Ayobami Pase | Cloud Engineer Portfolio</p>
+  </footer>
+</body>
+</html>
