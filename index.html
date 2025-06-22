@@ -47,12 +47,12 @@
       margin-bottom: 2rem;
     }
     footer {
-  background: #0f2027;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  width: 100%;
-}
+      background: #0f2027;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      width: 100%;
+    }
     .card {
       background: white;
       padding: 1.5rem;
@@ -78,32 +78,39 @@
       text-decoration: underline;
     }
     .contact-icon {
-  width: 20px;
-  vertical-align: middle;
-  margin-right: 8px;
-}
+      width: 20px;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+    .tech-banner {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    .tech-banner img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
   </style>
 </head>
 <body>
-    <header>
-        <img src="profile.jpg" alt="Ayobami Pase" style="width: 120px; border-radius: 50%; margin-bottom: 1rem;" />
-        <h1>Ayobami Pase</h1>
-        <p>Cloud Engineer | Infrastructure & DevOps</p>
-      </header>
-
+  <header>
+    <img src="profile.jpg" alt="Ayobami Pase" style="width: 120px; border-radius: 50%; margin-bottom: 1rem;" />
+    <h1>Ayobami Pase</h1>
+    <p>Cloud Engineer | Infrastructure & DevOps</p>
+  </header>
   <nav>
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
   </nav>
-
   <main>
     <section id="about" class="card">
       <h2>About Me</h2>
       <p>I am a Cloud Engineer with experience in GCP, AWS, Terraform, and DevOps practices. Passionate about infrastructure automation and system reliability.</p>
     </section>
-
     <section id="skills" class="card">
       <h2>Skills</h2>
       <ul>
@@ -114,7 +121,6 @@
         <li>Scripting: Bash, Python</li>
       </ul>
     </section>
-
     <section id="projects" class="card">
       <h2>Projects</h2>
       <ul>
@@ -123,24 +129,16 @@
         <li><strong>Multi-Region Web Hosting</strong> – Hosted a static site across AWS and GCP with global DNS failover.</li>
       </ul>
     </section>
-
     <section id="contact" class="card">
       <h2>Contact</h2>
-      <p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Gmail" class="contact-icon" />
-        Email: <a href="mailto:aypase@gmail.com">aypase@gmail.com</a>
-      </p>
-      <p>
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" class="contact-icon" />
-        GitHub: <a href="https://github.com/apaseay" target="_blank" rel="noopener noreferrer">github.com/apaseay</a>
-      </p>
-      <p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" class="contact-icon" />
-        LinkedIn: <a href="https://linkedin.com/in/ayobamipase/" target="_blank" rel="noopener noreferrer">linkedin.com/in/ayobamipase</a>
-      </p>
+      <p><img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Gmail" class="contact-icon" />Email: <a href="mailto:aypase@gmail.com">aypase@gmail.com</a></p>
+      <p><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" class="contact-icon" />GitHub: <a href="https://github.com/apaseay" target="_blank" rel="noopener noreferrer">github.com/apaseay</a></p>
+      <p><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" class="contact-icon" />LinkedIn: <a href="https://linkedin.com/in/ayobamipase/" target="_blank" rel="noopener noreferrer">linkedin.com/in/ayobamipase</a></p>
     </section>
   </main>
-
+  <section class="tech-banner">
+    <img src="images/Cloud-Background.png" alt="Cloud Stack" />
+  </section>
   <footer>
     <p>© 2025 Ayobami Pase | Cloud Engineer Portfolio</p>
   </footer>
